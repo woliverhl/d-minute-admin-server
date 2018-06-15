@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dminute-admin-server
+  cloud:
+    config:
+      failFast: true
+      uri: ${CONFIG_SERVER_DMINUTE}
+      
